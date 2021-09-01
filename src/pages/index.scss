@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap");
+
 body,
 html {
   /* Full height */
   height: 100%;
 
   /* Text */
+  font-family: "Fira Code", monospace;
   color: #50fa7b;
 
   /* Create the parallax scrolling effect */
