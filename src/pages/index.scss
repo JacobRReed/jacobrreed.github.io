@@ -1,0 +1,43 @@
+body,
+html {
+  /* Full height */
+  height: 100%;
+
+  /* Text */
+  color: #50fa7b;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/bg/16x9.svg");
+
+  @media screen and (aspect-ratio: 1/1) {
+    background-image: url("../images/bg/1x1.svg");
+  }
+  @media screen and (aspect-ratio: 1/2) {
+    background-image: url("../images/bg/1x2.svg");
+  }
+  @media screen and (aspect-ratio: 2/1) {
+    background-image: url("../images/bg/2x1.svg");
+  }
+  @media screen and (aspect-ratio: 2/3) {
+    background-image: url("../images/bg/2x3.svg");
+  }
+  @media screen and (aspect-ratio: 3/2) {
+    background-image: url("../images/bg/3x2.svg");
+  }
+  @media screen and (aspect-ratio: 3/4) {
+    background-image: url("../images/bg/3x4.svg");
+  }
+  @media screen and (aspect-ratio: 4/3) {
+    background-image: url("../images/bg/4x3.svg");
+  }
+  @media screen and (aspect-ratio: 9/16) {
+    background-image: url("../images/bg/9x16.svg");
+  }
+  @media screen and (aspect-ratio: 16/9) {
+    background-image: url("../images/bg/16x9.svg");
+  }
+}
